@@ -3,7 +3,7 @@ import { getAuth, GoogleAuthProvider, signInWithPopup, signOut } from "firebase/
 
 const firebaseConfig = {
   apiKey: "AIzaSyCZqJSBLKZvROhfFG8mQMon-beS7TL5qFQ",
-  authDomain: "project-795478192675.firebaseapp.com",
+  authDomain: "https://last-one-seven.vercel.app/",
   projectId: "react-fd9cf",
   storageBucket: "react-fd9cf.appspot.com",
   messagingSenderId: "123456789",
