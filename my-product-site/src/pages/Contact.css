@@ -1,0 +1,46 @@
+.contact-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #1a1a1a;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(255, 215, 0, 0.5);
+    text-align: center;
+    color: gold;
+  }
+  
+  .contact-title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .contact-info {
+    background: black;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: left;
+    color: white;
+  }
+  
+  .contact-info p {
+    font-size: 18px;
+    margin: 5px 0;
+  }
+  
+  .contact-subtitle {
+    margin-top: 20px;
+    font-size: 22px;
+    color: gold;
+  }
+  
+  .contact-description {
+    background: black;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 18px;
+    color: white;
+    text-align: justify;
+    line-height: 1.5;
+  }
+  

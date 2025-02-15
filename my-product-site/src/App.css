@@ -1,0 +1,75 @@
+body {
+  background-color: black;
+  color: gold;
+  min-height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+h1, h2, p {
+  text-align: center;
+}
+
+.App {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.header {
+  background-color: gold;
+  color: black;
+  padding: 15px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.hamburger {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  font-size: 30px;
+  cursor: pointer;
+  color: gold;
+}
+
+.navbar {
+  position: fixed;
+  left: -250px;
+  top: 0;
+  width: 200px;
+  height: 100%;
+  background-color: black;
+  color: gold;
+  transition: left 0.3s;
+  padding-top: 50px;
+}
+
+.navbar.show {
+  left: 0;
+}
+
+.navbar a {
+  display: block;
+  padding: 15px;
+  text-decoration: none;
+  color: gold;
+}
+
+.navbar a:hover {
+  background-color: #b8860b;
+  color: black;
+}
+
+.auth-button {
+  display: block;
+  margin: 10px auto;
+  padding: 10px;
+  background-color: gold;
+  color: black;
+  border: none;
+  cursor: pointer;
+}
+
+.auth-button:hover {
+  background-color: #b8860b;
+}
